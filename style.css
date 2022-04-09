@@ -15,8 +15,15 @@ FONT SIZE SYSTEM (px)
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
+
+/* Main color would be: #087f5b ; #343a40 */
+
+
+
 body {
   font-family: 'Inter' sans-serif;
+  color: #343a40;
+  border-bottom: 15px solid #087f5b;
 }
 
 .container {
@@ -42,6 +49,37 @@ h2 {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 1.2;
+}
+
+.btn--big {
+  background-color: #087f5b;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 2vw;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: white;
+  border-radius: 2vw;
+  display: inline-block;
+}
+
+.btn--big {
+  padding: 16px 22px;
+}
+
+.btn--small {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #099268;
 }
 
 /* ------------------------ */
@@ -92,6 +130,10 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: white;
+  padding: 15px;
+  border-radius: 2vw;
 }
 
 .testimonial-box {
@@ -152,4 +194,5 @@ a:link {
 
 footer {
   margin-bottom: 48px;
+  color: #495057;
 }
