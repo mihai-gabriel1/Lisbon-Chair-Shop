@@ -117,6 +117,30 @@ img {
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 14px;
+}
+
+.effort-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 14px;
+}
+
+.ethical-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 14px;
+}
+
+.chair-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
 }
 
 .features-title {
